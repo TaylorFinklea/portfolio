@@ -1,0 +1,14 @@
+# Add any directories, files, or patterns you don't want to be tracked by version control
+node_modules
+functions
+dist
+*.log*
+.nuxt
+.nitro
+.cache
+.output
+.env
+
+# Local Netlify folder
+.netlify
+.vercel
