@@ -27,17 +27,13 @@ const links = ref([
                 class="relative block px-3 py-2 transition"
                 :class="
                   $route.path === link.href
-                    ? 'text-cyan-500 dark:text-cyan-400'
-                    : 'hover:text-cyan-500 dark:hover:text-cyan-400'
+                    ? 'text-primary-500 dark:text-primary-400'
+                    : 'hover:text-primary-500 dark:hover:text-primary-400'
                 "
               >
                 <span
                   v-if="$route.path === link.href"
                   class="absolute inset-x-1 -top-px h-px bg-gradient-to-r from-accent-500/0 via-primary-500/40 to-accent-500/0 dark:from-accent-400/0 dark:via-primary-400/40 dark:to-accent-400/0"
-                />
-                <span
-                  v-if="$route.path === link.href"
-                  class="absolute inset-x-1 -bottom-px h-px bg-gradient-to-r from-accent-500/0 via-primary-500/40 to-accent-500/0 dark:from-accent-400/0 dark:via-primary-400/40 dark:to-accent-400/0"
                 />
                 {{ link.name }}
               </NuxtLink>
