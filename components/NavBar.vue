@@ -14,7 +14,7 @@ const links = ref([
 ])
 </script>
 <template>
-  <div class="top-1 z-10 h-10 pt-4">
+  <div class="top-1 z-50 h-10 pt-4 sticky">
     <div class="grid grid-cols-3">
       <div className="col-start-2 justify-self-end md:justify-self-center">
         <nav>
