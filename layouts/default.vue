@@ -1,5 +1,5 @@
 <template>
-  <div className="fixed inset-0 flex justify-center sm:px-12 dark:bg-black">
+  <div className="inset-0 flex justify-center sm:px-12 dark:bg-black">
     <div
       className="w-full bg-white ring-1 ring-primary-light-100 dark:bg-primary-dark-800 dark:ring-primary-dark-300/20"
     >

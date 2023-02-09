@@ -8,8 +8,8 @@ const { next } = useCycleList(['auto', 'light', 'dark'], {
 const links = ref([
   { name: 'Home', href: '/' },
   { name: 'About', href: '/about' },
-  { name: 'Talents', href: '/talents' },
   { name: 'Projects', href: '/projects' },
+  { name: 'Talents', href: '/talents' },
   { name: 'Uses', href: '/uses' },
 ])
 </script>
