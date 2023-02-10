@@ -15,6 +15,6 @@ export default defineNuxtConfig({
     '@nuxt/image-edge',
   ],
   app: {
-    pageTransition: { name: 'page', mode: 'in-out' },
+    pageTransition: { name: 'page', mode: 'out-in' },
   },
 })
