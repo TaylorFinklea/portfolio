@@ -81,7 +81,7 @@ const links = ref([
                 <div
                   class="relative grid gap-6 bg-primary-light-50 px-5 py-6 sm:gap-8 sm:p-8"
                 >
-                  <NuxtLink
+                  <a
                     v-for="link in links"
                     :key="link.name"
                     :href="link.href"
@@ -95,7 +95,7 @@ const links = ref([
                     <p class="text-base font-medium text-primary-dark-900">
                       {{ link.name }}
                     </p>
-                  </NuxtLink>
+                  </a>
                 </div>
               </div>
             </PopoverPanel>
