@@ -8,7 +8,7 @@
 <style>
 .page-enter-active,
 .page-leave-active {
-  @apply transition ease-linear delay-150
+  @apply transition ease-linear delay-75
 }
 .page-enter-from,
 .page-leave-to {
