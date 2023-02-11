@@ -51,7 +51,7 @@ const uses: Use[] = [
       {
         title: 'Gitkraken',
         subtitle:
-          'I may use the command-line 95% of the time for git commands, but I like having Gitkraken on a screen to see branches and resolve complex git merges.',
+          'I may use the command-line 99% of the time for git commands, but I like having Gitkraken on a screen to see branches and resolve complex git merges.',
       },
       {
         title: 'Insomnia',
@@ -65,7 +65,8 @@ const uses: Use[] = [
     items: [
       {
         title: 'Figma',
-        subtitle: 'This is an amazing tool. ',
+        subtitle:
+          'This is an amazing tool. Having worked in a lot of design applications, I really enjoy that it is just as good of a design tool as a collaborative tool. ',
       },
     ],
   },
@@ -75,27 +76,27 @@ const uses: Use[] = [
       {
         title: 'Yabai and SKHD',
         subtitle:
-          'After working on the M1 Max, I can say that there is nothing like Apple Silicon. I have never even heard the fans turn on and it runs my 4 monitors and anything I can throw at it smoothly.',
+          'After I moved from Arch Linux to iOS, the thing that I missed the most was i3 window manager. This gets me 95% of what i3 offered for me and I have been really happy in macOS with this setup.',
       },
       {
         title: 'Obsidian',
         subtitle:
-          'I have varying sizes of monitors, but all of them perform flawlessly. I have had great experiences with LG monitors.',
+          'I finally found my favorite note taking app. Apps like Apple Notes and OneNote are hard to migrate from when you want to try something new, so I that everything is pure Markdown and of course the Vim keybindings.',
       },
       {
         title: 'NeoVim',
         subtitle:
-          'When you are in a chair for most of the day, nothing beats the Secretlab TITAN Evo. It is by far the most comfortable chair I have used.',
+          'Whenever I am editing in the terminal, Vim is the only way to go. NeoVim adds a great plugin ecosystem while maintaining the sprit of Vim.',
       },
       {
         title: 'Tmux',
         subtitle:
-          'For the rare occasion that I need to use my mouse, I always go with the Logitech Master series. Best part is that is works with macOS gestures too.',
+          'Especially when working in an SSH session, having persistent sessions and a window manager is fantastic. ',
       },
       {
         title: 'Maccy',
         subtitle:
-          'QMK/VIA Wireless Mechanical Keyboard with RGB Backlight and Gateron G Pro Mechanical Brown switches. This keyboard is a dream to type on and works seamlessly with macOS.',
+          'The best clipboard manager I have ever used, even coming from Linux. It is absolutely essential for my workflow and development.',
       },
     ],
   },
@@ -116,10 +117,10 @@ const uses: Use[] = [
       class="mt-6 col-span-3 space-y-4 text-base text-primary-dark-600 dark:text-primary-light-300"
     >
       <p>
-        I have always had a passion for building and automating things. As a
-        child I was constantly tearing apart electronics to figure out how they
-        worked. In 2017 I built my first Prusa i3 3D printer and taught myself
-        Autodesk Fusion 360 so that I could model my own designs.
+        A developer's tool set is very personal and constantly shifting. These
+        are the core software and hardware recommendations that rarely change
+        for me, and help me be efficient. I hope that you find something on this
+        list that you add to your tool box.
       </p>
     </div>
     <div></div>
