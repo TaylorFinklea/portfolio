@@ -14,7 +14,7 @@ const props = defineProps<TalentGroup>()
     <h2 class="pl-6 text-xl dark:text-primary-light-200">
       {{ props.label }}
     </h2>
-    <ul class="grid grid-cols-4 pt-3">
+    <ul class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 pt-3">
       <li v-for="item in props.items" class="flex pb-3 pl-10">
         <h3 class="pb-1">
           <Icon name="radix-icons:dash" />
