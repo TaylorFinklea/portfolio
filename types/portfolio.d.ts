@@ -5,3 +5,8 @@ type Use = {
     subtitle: string
   }>
 }
+
+type TalentGroup = {
+  label: string
+  items: string[]
+}

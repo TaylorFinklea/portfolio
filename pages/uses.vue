@@ -108,7 +108,7 @@ const uses: Use[] = [
   >
     <div class="col-span-3">
       <h1
-        class="text-4xl font-bold tracking-tight text-primar-dark-800 dark:text-primary-light-100 sm:text-5xl"
+        class="text-4xl font-bold tracking-tight text-primary-dark-800 dark:text-primary-light-100 sm:text-5xl"
       >
         My favorite hardware, software and other things that keep me productive.
       </h1>
