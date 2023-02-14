@@ -1,7 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   // CLOUDFLARE WORKERS
-  ssr: false,
+  ssr: true,
   nitro: {
     preset: 'cloudflare-pages',
   },
@@ -13,6 +13,7 @@ export default defineNuxtConfig({
     'nuxt-headlessui',
     'nuxt-icon',
     '@nuxt/image-edge',
+    '@nuxt/content',
   ],
   app: {
     pageTransition: { name: 'page', mode: 'out-in' },

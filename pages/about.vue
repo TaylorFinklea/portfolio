@@ -37,7 +37,7 @@ const social = [
     </div>
     <div class="lg:order-first lg:row-span-2">
       <h1
-        class="text-4xl font-bold tracking-tight text-primar-dark-800 dark:text-primary-light-100 sm:text-5xl"
+        class="text-4xl font-bold tracking-tight text-primary-dark-800 dark:text-primary-light-100 sm:text-5xl"
       >
         Hi, I'm Taylor Finklea.
       </h1>

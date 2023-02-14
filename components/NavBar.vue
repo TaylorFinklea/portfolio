@@ -104,22 +104,18 @@ const links = ref([
       </div>
 
       <div class="justify-self-end mr-8">
-        <button
-          class="rounded-2xl text-sm px-3 h-10 items-end text-primary-dark-800/70 shadow-lg shadow-primary-dark-800/5 ring-1 ring-primary-dark-900/5 hover:text-primary-dark-800/90 hover:ring-primary-dark-900/10 backdrop-blur transition dark:bg-primary-dark-700/60 dark:text-primary-light-400 dark:hover:text-primary-light-200 dark:ring-primary-light-100/10 dark:hover:ring-primary-light-100/20"
-          @click="next()"
-        >
-          <span class="sr-only">Toggle theme</span>
-          <Icon
-            :name="
+        <BaseButton
+            :icon="
               {
                 auto: 'material-symbols:contrast',
                 dark: 'ph:moon-fill',
                 light: 'ph:sun-dim-bold',
               }[mode]
             "
-            class="h-6 w-6"
-          />
-        </button>
+            screenReaderLabel="Toggle Mode"
+            iconSize="h-6 w-6"
+            @click="next()"
+            />
       </div>
     </div>
   </div>
