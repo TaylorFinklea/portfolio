@@ -4,7 +4,7 @@ const projects = useProjects()
 <template>
   <div>
     <div v-for="project in projects">
-      <a :href="project._path">
+      <NuxtLink :to="project._path">
         <div
           class="grid grid-cols-3 mx-5 mt-10 p-4 rounded-xl hover:bg-primary-light-200 hover:dark:bg-primary-dark-800"
         >
@@ -32,7 +32,7 @@ const projects = useProjects()
             </p>
           </div>
         </div>
-      </a>
+      </NuxtLink>
     </div>
   </div>
 </template>
