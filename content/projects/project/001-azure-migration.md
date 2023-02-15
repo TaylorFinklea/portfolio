@@ -9,7 +9,6 @@ navigation:
   title: 'Migrating to Azure'
   description: 'I have done many cloud migration during my career, but this particular migration was the largest by far. I planned and executed the migration of two datacenters, with over 200 virtual machines and zero downtime.'
   image: 'https://unsplash.com/photos/K-Iog-Bqf8E/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8M3x8Y2xvdWR8ZW58MHx8fHwxNjc2Mzg0NDUw&force=true&w=1920'
-  order: 001
 ---
 
 ## The Project
