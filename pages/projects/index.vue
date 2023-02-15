@@ -20,7 +20,7 @@ const projects = useProjects()
               {{ project.title }}
             </h2>
             <p
-              class="ml-8 mt-3 space-y-4 text-base text-primary-dark-600 dark:text-primary-light-300"
+              class="ml-8 mt-3 space-y-4 text-sm text-primary-dark-600 dark:text-primary-light-400"
             >
               {{ project.description }}
             </p>
