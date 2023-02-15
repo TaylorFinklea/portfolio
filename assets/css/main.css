@@ -11,4 +11,28 @@ body {
 }
 
 @layer utilities {
+  .base-h1 {
+    @apply text-4xl font-bold tracking-tight text-primary-dark-800 dark:text-primary-light-100 sm:text-5xl;
+  }
+  .base-h2 {
+    @apply text-3xl font-semibold tracking-tight text-primary-dark-800 dark:text-primary-light-100 sm:text-4xl;
+  }
+  .base-h3 {
+    @apply text-2xl font-medium tracking-tight text-primary-dark-800 dark:text-primary-light-100 sm:text-3xl;
+  }
+  .base-subtitle {
+    @apply mt-6 mb-10 space-y-4 text-base text-primary-dark-600 dark:text-primary-light-300;
+  }
+  .article {
+    @apply prose-zinc dark:prose-invert;
+  }
+  .article-h1 {
+    @apply prose-h1:text-4xl prose-h1:font-bold prose-h1:tracking-tight prose-h1:text-primary-dark-800 prose-h1:dark:text-primary-light-100 prose-h1:sm:text-5xl;
+  }
+  .article-h2 {
+    @apply prose-h2:text-3xl prose-h2:font-semibold prose-h2:tracking-tight prose-h2:text-primary-dark-800 prose-h2:dark:text-primary-light-100 prose-h2:sm:text-4xl prose-h2:no-underline prose-h2:mb-2 prose-h2:mt-4;
+  }
+  .article-h3 {
+    @apply prose-h3:text-2xl prose-h2:font-medium prose-h3:tracking-tight prose-h3:text-primary-dark-800 prose-h3:dark:text-primary-light-100 prose-h3:sm:text-3xl prose-h3:mb-2 prose-h3:mt-4;
+  }
 }

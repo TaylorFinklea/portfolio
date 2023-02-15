@@ -11,6 +11,7 @@ module.exports = {
     './nuxt.config.{js,ts}',
     './app.vue',
     './formkit.config.js',
+    './content/**/*.md',
   ],
   theme: {
     extend: {
