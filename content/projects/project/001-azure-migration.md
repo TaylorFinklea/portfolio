@@ -28,7 +28,7 @@ One of the biggest challenges was working around the old Site-to-Site VPN that w
 We also needed to migrate our old Exchange server to Office 365. Thankfully I had performed dozens of these migrations in previous roles, and it went smoothly using tools like BitTitan MigrationWiz.
 
 ### Migration
-The migration took several months but the plan paid off. In the end I was able to migrate each resource one-by-one and turn off the old servers. There was no major downtime and most people in the company didn't even know that anything had changed.
+The migration took several months but the plan paid off. In the end I was able to migrate each resource one-by-one and turn off the old servers. There was no major downtime and most people in the company didn't even know that anything had changed. I also set up Azure Sentinel as our SIEM in the cloud and configured it to hand over to our SOC.
 
 ## Wrap Up
 My previous experiences with migrations to Azure helped me pull this large scale migration off smoothly. Now that everything was in Azure, it was time to improve the overall architecture.
