@@ -35,4 +35,7 @@ body {
   .article-h3 {
     @apply prose-h3:text-2xl prose-h2:font-medium prose-h3:tracking-tight prose-h3:text-primary-dark-800 prose-h3:dark:text-primary-light-100 prose-h3:sm:text-3xl prose-h3:mb-2 prose-h3:mt-4;
   }
+  .article-prose-code{
+    @apply prose-code:bg-primary-dark-400/70 prose-code:rounded-md prose-code:p-0.5 prose-code:dark:bg-primary-dark-700 
+  }
 }
