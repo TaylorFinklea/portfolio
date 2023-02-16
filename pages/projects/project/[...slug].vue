@@ -17,10 +17,10 @@
         class="rounded-2xl col-span-5 col-start-2"
       />
       <article
-        class="article article-h1 article-h2 article-h3 col-start-2 col-span-5 mt-4"
+        class="article article-h1 article-h2 article-h3 article-prose-code col-start-2 col-span-5 mt-4"
       >
         <ContentRenderer :value="doc" />
-      </article>
+    </article>
     </ContentDoc>
   </main>
 </template>
