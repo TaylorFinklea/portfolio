@@ -67,8 +67,7 @@ const downloadResume = () => {
   <div class="grid grid-cols-1 gap-y-5 lg:grid-cols-5 lg:gap-y-0">
     <NuxtImg
       src="/taylor1.png"
-      sizes="sm:100px"
-      class="rounded-full lg:col-span-5"
+      class="rounded-full lg:col-span-5 h-[100px] w-[100px]"
     />
     <h1 class="base-h1 lg:col-span-4 mt-7">
       DevSecOps and Infrastructure Engineer

@@ -30,8 +30,7 @@ const social = [
       <div class="max-w-xs px-2.5 lg:max-w-none">
         <NuxtImg
           src="/taylor2.jpg"
-          sizes="sm:100vw md:50vw lg:300px"
-          class="rounded-3xl"
+          class="rounded-3xl w-[300px]"
         />
       </div>
     </div>
