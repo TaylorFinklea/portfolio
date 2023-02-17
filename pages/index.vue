@@ -64,16 +64,16 @@ const downloadResume = () => {
 }
 </script>
 <template>
-  <div class="grid grid-cols-1 gap-y-16 lg:grid-cols-5 lg:gap-y-0">
+  <div class="grid grid-cols-1 gap-y-5 lg:grid-cols-5 lg:gap-y-0">
     <NuxtImg
       src="/taylor1.png"
       sizes="sm:100px"
-      class="rounded-full col-span-5"
+      class="rounded-full lg:col-span-5"
     />
-    <h1 class="base-h1 col-span-4 mt-7">
+    <h1 class="base-h1 lg:col-span-4 mt-7">
       DevSecOps and Infrastructure Engineer
     </h1>
-    <div class="base-subtitle col-span-4">
+    <div class="base-subtitle lg:col-span-4">
       <p>
         I'm Taylor, manager of DevOps, Infrastructure and Information Security.
         I am passionate about development and deploying automated, scalable,
@@ -87,9 +87,9 @@ const downloadResume = () => {
           class="h-6 w-6 dark:text-primary-light-300 hover:text-primary-500 hover:dark:text-primary-500"
       /></NuxtLink>
     </div>
-    <h2 class="base-h2 col-span-5 mt-24">Featured Projects</h2>
-    <div class="col-span-5">
-      <div class="grid grid-cols-1 md:grid-cols-3">
+    <div class="lg:col-span-5">
+      <h2 class="base-h2 mt-24">Featured Projects</h2>
+      <div class="grid grid-cols-1 lg:grid-cols-3">
         <HeroCard
           v-for="project in featuredProjects"
           :href="project._path"
@@ -100,10 +100,10 @@ const downloadResume = () => {
     </div>
     <!-- WORK -->
     <div
-      class="col-span-3 mt-24 mr-10 border-2 rounded-xl border-primary-light-100 dark:border-primary-dark-800"
+      class="lg:col-span-3 mt-24 lg:mr-10 border-2 rounded-xl border-primary-light-100 dark:border-primary-dark-800"
     >
       <div class="p-6">
-        <span>Work</span>
+        <span class="base-h3">Work</span>
         <WorkCard
           v-for="item in work"
           class="mt-6"
@@ -114,7 +114,7 @@ const downloadResume = () => {
         />
         <div class="flex justify-center">
           <button
-            class="base-subtitle px-10 py-2 w-5/6 rounded-xl dark:bg-primary-dark-800 hover:bg-primary-400 hover:dark:bg-primary-700"
+            class="base-subtitle px-2 w-full lg:px-10 py-2 lg:w-5/6 rounded-xl dark:bg-primary-dark-800 hover:bg-primary-400 hover:dark:bg-primary-700"
             @click="downloadResume"
           >
             Download Resume

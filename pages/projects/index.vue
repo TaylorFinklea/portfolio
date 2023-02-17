@@ -6,7 +6,7 @@ const projects = await useProjects()
     <div v-for="project in projects">
       <NuxtLink :to="project._path">
         <div
-          class="grid grid-cols-3 mx-5 mt-10 p-4 rounded-xl hover:bg-primary-light-200 hover:dark:bg-primary-dark-800"
+          class="grid grid-cols-1 lg:grid-cols-3 lg:mx-5 mt-10 lg:p-4 rounded-xl hover:bg-primary-light-200 hover:dark:bg-primary-dark-800"
         >
           <NuxtImg
             :src="project.image"
