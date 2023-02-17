@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const projects = useProjects()
+const projects = await useProjects()
 </script>
 <template>
   <div>
