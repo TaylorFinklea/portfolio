@@ -82,6 +82,7 @@ const links = ref([
                   class="relative grid gap-6 bg-primary-light-50 px-5 py-6 sm:gap-8 sm:p-8"
                 >
                   <NuxtLink
+                    :external="true"
                     v-for="link in links"
                     :key="link.name"
                     :href="link.href"
@@ -105,17 +106,17 @@ const links = ref([
 
       <div class="justify-self-end mr-8">
         <BaseButton
-            :icon="
-              {
-                auto: 'material-symbols:contrast',
-                dark: 'ph:moon-fill',
-                light: 'ph:sun-dim-bold',
-              }[mode]
-            "
-            screenReaderLabel="Toggle Mode"
-            iconSize="h-6 w-6"
-            @click="next()"
-            />
+          :icon="
+            {
+              auto: 'material-symbols:contrast',
+              dark: 'ph:moon-fill',
+              light: 'ph:sun-dim-bold',
+            }[mode]
+          "
+          screenReaderLabel="Toggle Mode"
+          iconSize="h-6 w-6"
+          @click="next()"
+        />
       </div>
     </div>
   </div>
