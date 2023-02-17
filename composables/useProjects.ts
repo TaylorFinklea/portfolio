@@ -1,10 +1,9 @@
-const { data: navigation } = await useAsyncData('navigation', () =>
-  fetchContentNavigation()
-)
-
 // Extract relevant content
-export const useProjects = () => {
+export default async () => {
+  const { data: navigation } = await useAsyncData('navigation', () =>
+    fetchContentNavigation()
+  )
   return navigation.value
     ?.find((x) => typeof x !== undefined)
-    ?.children?.find((x) => typeof x !== undefined)?.children
+    ?.children?.find((x) => typeof x !== undefined)?.children as Project[]
 }
