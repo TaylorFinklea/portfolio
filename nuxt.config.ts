@@ -3,7 +3,7 @@ export default defineNuxtConfig({
   // CLOUDFLARE WORKERS
   ssr: true,
   nitro: {
-    preset: 'cloudflare',
+    preset: 'netlify',
   },
   // END CLOUDFLARE WORKERS
   css: ['~/assets/css/main.css'],
@@ -19,6 +19,6 @@ export default defineNuxtConfig({
     pageTransition: { name: 'page', mode: 'out-in' },
   },
   image: {
-    provider: "cloudflare"
+    provider: "netlify"
   }
 })
