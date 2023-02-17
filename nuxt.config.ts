@@ -3,7 +3,7 @@ export default defineNuxtConfig({
   // CLOUDFLARE WORKERS
   ssr: true,
   nitro: {
-    preset: 'cloudflare-pages',
+    preset: 'cloudflare',
   },
   // END CLOUDFLARE WORKERS
   css: ['~/assets/css/main.css'],
@@ -18,4 +18,7 @@ export default defineNuxtConfig({
   app: {
     pageTransition: { name: 'page', mode: 'out-in' },
   },
+  image: {
+    provider: "cloudflare"
+  }
 })
