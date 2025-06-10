@@ -1,9 +1,9 @@
 <script setup lang="ts">
 const projects = await useProjects();
 const featuredProjects: Ref<Project[]> = ref([
+  projects[8], // AI Development Environment
   projects[7], // AI Automation Agents
   projects[6], // Browser Agents
-  projects[5], // Kubernetes
 ]);
 const social = [
   {
@@ -11,7 +11,7 @@ const social = [
     href: "https://www.youtube.com/@taylor-finklea",
   },
   {
-    icon: "mdi:twitter",
+    icon: "simple-icons:x",
     href: "https://x.com/Taylor_Finklea",
   },
   {

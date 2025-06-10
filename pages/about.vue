@@ -7,7 +7,7 @@ const social = [
   },
   {
     label: "X (Twitter)",
-    icon: "mdi:twitter",
+    icon: "simple-icons:x",
     href: "https://x.com/Taylor_Finklea",
   },
   {
@@ -65,15 +65,6 @@ const techStack = [
       "Qwen 3",
       "Gemma",
       "PHI 4",
-    ],
-  },
-  {
-    category: "Hardware",
-    items: [
-      '16" MacBook Pro M2 Pro',
-      "LG 4K Ultra-wide",
-      "Ferris Sweep Keyboard",
-      "Ploopy Trackball",
     ],
   },
 ];
