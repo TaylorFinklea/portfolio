@@ -8,7 +8,7 @@ head:
 navigation:
   title: 'Browser Agents & Web Automation'
   description: 'Building intelligent browser agents that can navigate, interact with, and automate complex web workflows using AI-powered decision making and modern automation frameworks.'
-  image: 'https://unsplash.com/photos/iar-afB0QQw/download?force=true&w=1920'
+  image: 'https://unsplash.com/photos/Q1p7bh3SHj8/download?force=true&w=1920'
 ---
 
 ## The Project

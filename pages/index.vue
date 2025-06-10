@@ -28,7 +28,7 @@ const social = [
   },
   {
     icon: "mdi:email",
-    href: "mailto:taylor.finklea@gmail.com",
+    href: "mailto:taylor@novalark.ai",
   },
 ];
 const work = [
@@ -42,7 +42,7 @@ const work = [
   {
     label: "TherapyNotes",
     jobTitle: "Manager of Cloud Systems",
-    image: "/therapynotes.png",
+    image: "/therapynotes.jpg",
     dates: "2023 - Present",
   },
   {
@@ -70,13 +70,6 @@ const work = [
     dates: "2014 - 2015",
   },
 ];
-const downloadResume = () => {
-  const link = document.createElement("a");
-  link.href = "/resumeTaylorFinklea.pdf";
-  link.download = "resumeTaylorFinklea.pdf";
-  link.target = "_blank";
-  link.click();
-};
 </script>
 <template>
   <div class="grid grid-cols-1 gap-y-5 lg:grid-cols-5 lg:gap-y-0">
@@ -104,7 +97,7 @@ const downloadResume = () => {
         and open-source technology to create meaningful, real-world solutions.
       </p>
     </div>
-    <div class="col-start-1">
+    <div class="col-start-1 flex flex-row">
       <NuxtLink
         v-for="link in social"
         :to="link.href"
@@ -141,15 +134,6 @@ const downloadResume = () => {
           :dates="item.dates"
           :website="item.website"
         />
-        <div class="flex justify-center">
-          <button
-            class="base-subtitle px-2 w-full lg:px-10 py-2 lg:w-5/6 rounded-xl dark:bg-primary-dark-800 hover:bg-primary-400 hover:dark:bg-primary-700"
-            @click="downloadResume"
-          >
-            Download Resume
-            <Icon class="ml-2" name="mdi:arrow-down" />
-          </button>
-        </div>
       </div>
     </div>
   </div>

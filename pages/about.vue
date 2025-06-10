@@ -179,8 +179,8 @@ const techStack = [
           class="mt-8 border-t border-primary-dark-100 pt-8 dark:border-primary-dark-700/40"
         >
           <SocialLink
-            href="mailto:taylor.finklea@gmail.com"
-            label="taylor.finklea@gmail.com"
+            href="mailto:taylor@novalark.ai"
+            label="taylor@novalark.ai"
             icon="mdi:email"
           ></SocialLink>
         </li>
