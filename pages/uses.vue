@@ -1,106 +1,181 @@
 <script setup lang="ts">
 const uses: Use[] = [
   {
-    label: 'Hardware',
+    label: "Hardware",
     items: [
       {
-        title: '14” MacBook Pro, M1 Max, 64GB RAM (2021)',
+        title: '16" MacBook Pro, M2 Pro, 64GB RAM',
         subtitle:
-          'After working on the M1 Max, I can say that there is nothing like Apple Silicon. I have never even heard the fans turn on and it runs my 4 monitors and anything I can throw at it smoothly.',
+          "The M2 Pro with 64GB RAM handles everything from local LLM inference to complex multi-container AI deployments. Perfect for running multiple AI models simultaneously while maintaining excellent performance.",
       },
       {
-        title: 'LG IPS 4K Ultra-wide Monitors',
+        title: "LG IPS 4K Ultra-wide Monitors",
         subtitle:
-          'I have varying sizes of monitors, but all of them perform flawlessly. I have had great experiences with LG monitors.',
+          "Dual ultra-wide displays provide massive screen real estate essential for managing multiple terminals, code editors, AI monitoring dashboards, and documentation simultaneously.",
       },
       {
-        title: 'Keychron K8 Pro',
+        title: "Custom Ferris Sweep Split Keyboard",
         subtitle:
-          'QMK/VIA Wireless Mechanical Keyboard with RGB Backlight and Gateron G Pro Mechanical Brown switches. This keyboard is a dream to type on and works seamlessly with macOS.',
+          "Ultra-minimalist 34-key split keyboard that eliminates unnecessary keys and promotes better ergonomics. The custom layout is optimized for programming symbols and Vim motions.",
       },
       {
-        title: 'Logitech MX Master 2s',
+        title: "Ploopy Adept Trackball",
         subtitle:
-          'For the rare occasion that I need to use my mouse, I always go with the Logitech Master series. Best part is that is works with macOS gestures too.',
+          "Precise pointing device that reduces wrist movement and provides consistent accuracy for detailed work. Perfect for long coding sessions and precise UI interactions.",
       },
       {
-        title: 'Secretlab TITAN Evo 2022',
+        title: "Secretlab TITAN Evo 2022",
         subtitle:
-          'When you are in a chair for most of the day, nothing beats the Secretlab TITAN Evo. It is by far the most comfortable chair I have used.',
+          "When you spend most of your day building AI systems, comfort is essential. This chair provides excellent support for extended development sessions.",
       },
     ],
   },
   {
-    label: 'Development',
+    label: "Development",
     items: [
       {
-        title: 'Visual Studio Code',
+        title: "Zed Editor",
         subtitle:
-          'Having used about every text editor and IDE out there, VSCode is the most popular text editor for a reason. I love the ability to sync my settings through GitHub so that my environment is the same on all of my computers.',
+          "My primary GUI editor, chosen specifically for its exceptional AI integration. I extensively use its agent mode capabilities, Model Context Protocol (MCP) servers, and custom rules. Love how it makes Vim first-class while providing modern AI-assisted development.",
       },
       {
-        title: 'iTerm2',
+        title: "Neovim",
         subtitle:
-          'There is no other terminal that compares to iTerm2 on macOS. ',
+          "My go-to terminal-based editor for quick edits, remote work, and when I want the pure efficiency of a keyboard-driven workflow. Heavily customized with plugins for AI integration.",
       },
       {
-        title: 'Xcode',
+        title: "Doom Emacs",
         subtitle:
-          'When I write something in Swift, Xcode is the only reasonable choice. It may not be VSCode but it integrates nicely into the Apple ecosystem.',
+          "Used primarily for Orgmode, which remains unmatched for knowledge management and planning. Nothing is better than Orgmode - everyone just tries to copy it and fails.",
       },
       {
-        title: 'Gitkraken',
+        title: "Ghostty & WezTerm",
         subtitle:
-          'I may use the command-line 99% of the time for git commands, but I like having Gitkraken on a screen to see branches and resolve complex git merges.',
+          "Ghostty for fast, GPU-accelerated terminal performance, and WezTerm for powerful configuration options and multiplexing capabilities.",
       },
       {
-        title: 'Insomnia',
+        title: "OpenAI Codex & Claude CLI",
         subtitle:
-          'Recently switched from Postman and have been really liking it for API testing and development.',
+          "Command-line access to powerful coding models for automated code generation, debugging, and code review directly from the terminal.",
+      },
+      {
+        title: "Google Jules",
+        subtitle:
+          "Integrated development assistance for complex problem-solving and architectural decisions in AI system development.",
+      },
+      {
+        title: "Insomnia",
+        subtitle:
+          "Much more intuitive than Postman for API testing, especially when working with AI-related APIs and testing agent integrations.",
       },
     ],
   },
   {
-    label: 'Design',
+    label: "Design / Content",
     items: [
       {
-        title: 'Figma',
+        title: "Figma",
         subtitle:
-          'This is an amazing tool. Having worked in a lot of design applications, I really enjoy that it is just as good of a design tool as a collaborative tool. ',
+          "Essential for interface design and collaboration, especially when designing UIs for AI applications and agent interactions.",
+      },
+      {
+        title: "Photoshop",
+        subtitle:
+          "Advanced image editing and manipulation, often used alongside AI image generation tools for final touch-ups.",
+      },
+      {
+        title: "iMovie",
+        subtitle:
+          "Video editing for my YouTube content where I make AI and browser agents accessible to everyone.",
+      },
+      {
+        title: "Recraft.ai",
+        subtitle:
+          "AI-powered design asset generation that speeds up the creation of logos, icons, and marketing materials.",
+      },
+      {
+        title: "Replicate.com",
+        subtitle:
+          "Running custom AI models for specialized creative tasks and experimenting with the latest open-source models.",
+      },
+      {
+        title: "Google Veo 3 & Imagen 4",
+        subtitle:
+          "Cutting-edge AI video and image generation tools for creating high-quality visual content.",
+      },
+      {
+        title: "OpenAI Sora",
+        subtitle:
+          "Experimental video generation capabilities for creating unique video content and demonstrations.",
       },
     ],
   },
   {
-    label: 'Productivity',
+    label: "Productivity",
     items: [
       {
-        title: 'Yabai and SKHD',
+        title: "AeroSpace Tiling Window Manager",
         subtitle:
-          'After I moved from Arch Linux to iOS, the thing that I missed the most was i3 window manager. This gets me 95% of what i3 offered for me and I have been really happy in macOS with this setup.',
+          "Automatically organizes windows for maximum efficiency. Essential when managing multiple terminal sessions, editors, and AI monitoring tools simultaneously.",
       },
       {
-        title: 'Obsidian',
+        title: "Raycast with AI, MCPs, Scripts",
         subtitle:
-          'I finally found my favorite note taking app. Apps like Apple Notes and OneNote are hard to migrate from when you want to try something new, so I that everything is pure Markdown and of course the Vim keybindings.',
+          "The center of everything I do. Raycast serves as my command center with AI integration, Model Context Protocol servers, custom snippets, scripts, and clipboard management. Absolutely essential to my workflow.",
       },
       {
-        title: 'NeoVim',
+        title: "Doom Emacs with Orgmode",
         subtitle:
-          'Whenever I am editing in the terminal, Vim is the only way to go. NeoVim adds a great plugin ecosystem while maintaining the sprit of Vim.',
+          "Nothing is better than Orgmode for hierarchical note-taking, project planning, and knowledge management. It remains the gold standard that others try to copy.",
       },
       {
-        title: 'Tmux',
+        title: "Anytype",
         subtitle:
-          'Especially when working in an SSH session, having persistent sessions and a window manager is fantastic. ',
+          "For notes that I need to collaborate with others on, since not everyone uses Emacs. Great for team knowledge sharing.",
       },
       {
-        title: 'Maccy',
+        title: "Highlight.ai",
         subtitle:
-          'The best clipboard manager I have ever used, even coming from Linux. It is absolutely essential for my workflow and development.',
+          "Real-time context capture and retrieval during development sessions. Perfect for maintaining context when working on complex AI systems.",
       },
     ],
   },
-]
+  {
+    label: "AI Tooling",
+    items: [
+      {
+        title: "ChatGPT Plus, Gemini Pro, Claude Pro",
+        subtitle:
+          "Access to the most capable AI models available. Each has strengths for different types of reasoning, coding, and problem-solving tasks.",
+      },
+      {
+        title: "Raycast AI",
+        subtitle:
+          "Integrated AI assistance directly in my command center, providing instant access to AI capabilities without context switching.",
+      },
+      {
+        title: "Local LLMs: Qwen 3, Gemma, PHI 4",
+        subtitle:
+          "Running local models with Ollama and LM Studio for privacy-sensitive work and offline development. These are some of my favorite models for coding and technical tasks.",
+      },
+      {
+        title: "Librechat, Open WebUI, Witsy",
+        subtitle:
+          "Self-hosted AI interfaces that give me complete control over my AI interactions and allow me to work with multiple models seamlessly.",
+      },
+      {
+        title: "AI Monitoring: LangSmith, Langfuse, Langwatch",
+        subtitle:
+          "Comprehensive monitoring and observability platforms for tracking AI agent performance, debugging issues, and optimizing model interactions.",
+      },
+      {
+        title: "Comet Opik & Latitude.so",
+        subtitle:
+          "Advanced AI monitoring and experiment tracking platforms that help optimize agent performance and track model behavior over time.",
+      },
+    ],
+  },
+];
 </script>
 <template>
   <div
@@ -110,17 +185,25 @@ const uses: Use[] = [
       <h1
         class="text-4xl font-bold tracking-tight text-primary-dark-800 dark:text-primary-light-100 sm:text-5xl"
       >
-        My favorite hardware, software and other things that keep me productive.
+        My AI-powered development setup and the tools that keep me building
+        intelligent systems.
       </h1>
     </div>
     <div
       class="mt-6 col-span-3 space-y-4 text-base text-primary-dark-600 dark:text-primary-light-300"
     >
       <p>
-        A developer's tool set is very personal and constantly shifting. These
-        are the core software and hardware recommendations that rarely change
-        for me, and help me be efficient. I hope that you find something on this
-        list that you add to your tool box.
+        Building AI agents and intelligent automation systems requires a
+        carefully curated toolkit. This is my current setup optimized for AI
+        development, from browser agents to complex agentic workflows. Every
+        tool has been chosen for its ability to integrate with AI or enhance the
+        development of AI systems.
+      </p>
+      <p>
+        As co-founder of NovaLark AI and a YouTuber focused on making AI
+        accessible, these tools help me move fluidly between designing agent
+        architectures, implementing automation solutions, and creating content
+        that brings AI to everyone.
       </p>
     </div>
     <div></div>
