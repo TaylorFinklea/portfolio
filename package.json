@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "author": "Taylor Finklea <taylor.finklea@gmail.com>",
   "private": true,
+  "engines": {
+    "node": ">=20.0.0"
+  },
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
@@ -11,24 +14,24 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@headlessui/tailwindcss": "^0.1.2",
-    "@headlessui/vue": "^1.7.10",
-    "@heroicons/vue": "^2.0.15",
-    "@nuxt/content": "^2.4.3",
-    "@vueuse/core": "^9.12.0",
-    "@vueuse/nuxt": "^9.12.0",
-    "nuxt": "^3.2.0",
-    "nuxt-headlessui": "^1.1.1",
-    "nuxt-icon": "^0.2.11",
-    "tailwind-config-viewer": "^1.7.2"
+    "@headlessui/tailwindcss": "^0.2.1",
+    "@headlessui/vue": "^1.7.23",
+    "@heroicons/vue": "^2.1.5",
+    "@nuxt/content": "^2.13.4",
+    "@vueuse/core": "^11.2.0",
+    "@vueuse/nuxt": "^11.2.0",
+    "nuxt": "^3.14.1592",
+    "nuxt-headlessui": "^1.2.0",
+    "@nuxt/icon": "^1.8.0",
+    "tailwind-config-viewer": "^2.0.4"
   },
   "dependencies": {
-    "@nuxt/image-edge": "1.0.0-27919678.2f5b64b",
-    "@nuxtjs/tailwindcss": "^6.4.1",
-    "@tailwindcss/typography": "^0.5.9",
-    "flowbite": "^1.6.3"
+    "@nuxt/image": "^1.8.1",
+    "@nuxtjs/tailwindcss": "^6.12.1",
+    "@tailwindcss/typography": "^0.5.15",
+    "flowbite": "^2.5.2"
   },
   "overrides": {
-    "vue": "latest"
+    "@nuxtjs/mdc": "^0.13.3"
   }
 }
