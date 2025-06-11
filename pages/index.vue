@@ -110,7 +110,7 @@ const work = [
     </div>
     <div class="lg:col-span-5">
       <h2 class="base-h2 mt-24">Featured Projects</h2>
-      <div class="grid grid-cols-1 lg:grid-cols-3">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
         <HeroCard
           v-for="project in featuredProjects"
           :href="project._path"
