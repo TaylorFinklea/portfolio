@@ -1,0 +1,34 @@
+{
+  "name": "TaylorFinklea",
+  "version": "0.0.1",
+  "author": "Taylor Finklea <taylor.finklea@gmail.com>",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@headlessui/tailwindcss": "^0.1.2",
+    "@headlessui/vue": "^1.7.10",
+    "@heroicons/vue": "^2.0.15",
+    "@nuxt/content": "^2.4.3",
+    "@vueuse/core": "^9.12.0",
+    "@vueuse/nuxt": "^9.12.0",
+    "nuxt": "^3.2.0",
+    "nuxt-headlessui": "^1.1.1",
+    "nuxt-icon": "^0.2.11",
+    "tailwind-config-viewer": "^1.7.2"
+  },
+  "dependencies": {
+    "@nuxt/image-edge": "1.0.0-27919678.2f5b64b",
+    "@nuxtjs/tailwindcss": "^6.4.1",
+    "@tailwindcss/typography": "^0.5.9",
+    "flowbite": "^1.6.3"
+  },
+  "overrides": {
+    "vue": "latest"
+  }
+}

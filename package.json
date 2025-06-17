@@ -1,5 +1,5 @@
 {
-  "name": "TaylorFinklea",
+  "name": "taylor-finklea-portfolio",
   "version": "0.0.1",
   "author": "Taylor Finklea <taylor.finklea@gmail.com>",
   "private": true,
@@ -18,15 +18,16 @@
     "@headlessui/vue": "^1.7.23",
     "@heroicons/vue": "^2.1.5",
     "@nuxt/content": "^2.13.4",
+    "@nuxt/icon": "^1.8.0",
     "@vueuse/core": "^11.2.0",
     "@vueuse/nuxt": "^11.2.0",
     "nuxt": "^3.14.1592",
     "nuxt-headlessui": "^1.2.0",
-    "@nuxt/icon": "^1.8.0",
     "tailwind-config-viewer": "^2.0.4"
   },
   "dependencies": {
     "@nuxt/image": "^1.8.1",
+    "@nuxtjs/color-mode": "^3.5.2",
     "@nuxtjs/tailwindcss": "^6.12.1",
     "@tailwindcss/typography": "^0.5.15",
     "flowbite": "^2.5.2"
