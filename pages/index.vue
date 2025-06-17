@@ -76,6 +76,8 @@ const work = [
     <NuxtImg
       src="/taylor1.png"
       class="rounded-full lg:col-span-5 h-[100px] w-[100px]"
+      width="100"
+      height="100"
     />
     <h1 class="base-h1 lg:col-span-4 mt-7">AI Engineer & Co-Founder</h1>
     <div class="base-subtitle lg:col-span-4">

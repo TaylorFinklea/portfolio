@@ -8,7 +8,7 @@ head:
 navigation:
   title: 'Browser Agents & Web Automation'
   description: 'Building intelligent browser agents that can navigate, interact with, and automate complex web workflows using AI-powered decision making and modern automation frameworks.'
-  image: 'https://unsplash.com/photos/Q1p7bh3SHj8/download?force=true&w=1920'
+  image: 'https://unsplash.com/photos/tBvF46kmwBw/download?force=true&w=1920'
 ---
 
 ## The Project
@@ -21,7 +21,7 @@ I've implemented solutions across the full spectrum of browser automation tools:
 
 **Dedicated Scrapers & Gathering Tools:**
 - **Tavily**: For intelligent web research and data gathering
-- **Apify**: Building custom scrapers and data extraction workflows  
+- **Apify**: Building custom scrapers and data extraction workflows
 - **Firecrawl**: Converting web pages to clean, structured data
 
 **AI-Powered Browser Frameworks:**

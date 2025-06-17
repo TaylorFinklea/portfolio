@@ -17,6 +17,8 @@ const props = defineProps<Props>();
           :src="props.image"
           class="w-full h-full object-cover transition-transform group-hover:scale-105"
           sizes="sm:100vw md:50vw lg:400px"
+          width="400"
+          height="225"
         />
       </div>
       <h3

@@ -1,12 +1,12 @@
 <script setup lang="ts">
 type Props = {
-  image: string
-  label: string
-  jobTitle: string
-  dates: string
-}
+  image: string;
+  label: string;
+  jobTitle: string;
+  dates: string;
+};
 
-const props = defineProps<Props>()
+const props = defineProps<Props>();
 </script>
 <template>
   <div class="grid grid-cols-3">
@@ -15,6 +15,8 @@ const props = defineProps<Props>()
         <NuxtImg
           :src="props.image"
           class="rounded-full p-1 bg-primary-light-300 dark:bg-primary-dark-700 w-12 h-12"
+          width="48"
+          height="48"
         />
         <div class="col-span-3 pl-4">
           <div class="grid grid-cols-1">

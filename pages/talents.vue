@@ -4,15 +4,14 @@ const talents: TalentGroup[] = [
     label: "Leadership",
     items: [
       "People-Centric Leadership",
-      "Servant Leadership",
       "Team Building",
-      "Psychological Safety",
+      "Cost Management",
       "Active Listening",
       "Inquiry-Based Communication",
       "Conflict Resolution",
       "Employee Growth & Development",
       "Cloud Engineering Management",
-      "DevOps Team Leadership",
+      "Vendor Management",
       "Cross-Functional Collaboration",
       "IT Management",
       "Project Management",
@@ -28,9 +27,12 @@ const talents: TalentGroup[] = [
       "Browser Automation",
       "LangChain",
       "LangGraph",
-      "OpenAI API",
-      "Google AI SDK",
-      "Claude API",
+      "OpenAI",
+      "Gemini",
+      "Claude",
+      "Google ADK",
+      "Google Vertex AI",
+      "Google Agent Engine",
       "Local LLMs",
       "Ollama",
       "LM Studio",
@@ -40,13 +42,14 @@ const talents: TalentGroup[] = [
       "Skyvern",
       "Stagehand",
       "Playwright",
-      "Puppeteer",
+      "Model Context Protocol (MCP)",
+      "Agent to Agent Protocol (A2A)",
       "Web Scraping",
       "Form Automation",
       "Lead Research Automation",
       "Email Automation",
       "Workflow Automation",
-      "AI Monitoring",
+      "AI Monitoring and Evaluations",
       "LangSmith",
       "Langfuse",
       "Langwatch",
@@ -69,12 +72,12 @@ const talents: TalentGroup[] = [
       "RKE2",
       "Docker",
       "IaC",
-      "Terraform",
+      "Terraform/Tofu",
       "Packer",
       "Ansible",
       "GitHub",
       "Git",
-      "Vagrant",
+      "Spacelift",
     ],
   },
   {
@@ -89,6 +92,7 @@ const talents: TalentGroup[] = [
       "Azure AD",
       "Prometheus",
       "Grafana",
+      "Datadog",
       "Linux",
       "Linux Servers",
       "Windows Servers",
@@ -105,12 +109,12 @@ const talents: TalentGroup[] = [
   {
     label: "Development",
     items: [
-      "Swift",
+      "Python",
       "TypeScript",
       "JavaScript",
       "Node.js",
+      "Swift",
       "Golang",
-      "Python",
       "Powershell",
       "Bash",
       "Postgresql",
@@ -126,7 +130,6 @@ const talents: TalentGroup[] = [
       "Railway.app",
       "Netlify",
       "Vercel",
-      "Prisma",
       "Figma",
     ],
   },
@@ -135,6 +138,11 @@ const talents: TalentGroup[] = [
     items: [
       "IT Audit",
       "SOC II Type II",
+      "ISO 27001",
+      "Hitrust",
+      "HIPPA",
+      "NISP",
+      "OWASP",
       "Nessus",
       "Tenable.io",
       "Vuln Scanning",
@@ -147,7 +155,6 @@ const talents: TalentGroup[] = [
       "Mimecast",
       "Sentinel",
       "PIM",
-      "Upguard",
       "Security Scorecard",
     ],
   },
@@ -155,9 +162,9 @@ const talents: TalentGroup[] = [
 </script>
 <template>
   <div
-    class="grid grid-cols-2 gap-y-16 mt-16 lg:grid-cols-4 lg:grid-rows-[auto-1fr] lg:gap-y-0"
+    class="grid grid-cols-2 gap-y-16 mt-16 lg:grid-cols-3 lg:grid-rows-[auto-1fr] lg:gap-y-0"
   >
-    <div class="col-span-4">
+    <div class="col-span-3">
       <h1
         class="text-4xl font-bold tracking-tight text-primary-dark-800 dark:text-primary-light-100 sm:text-5xl"
       >
@@ -176,7 +183,7 @@ const talents: TalentGroup[] = [
       </p>
     </div>
     <div></div>
-    <div class="col-span-4 mt-16">
+    <div class="col-span-3 mt-16">
       <TalentList
         v-for="item in talents"
         :label="item.label"

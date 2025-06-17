@@ -1,9 +1,10 @@
 <script setup lang="ts">
-const projects = await useProjects()
+const projects = await useProjects();
+const reversedProjects = projects.slice().reverse();
 </script>
 <template>
   <div>
-    <div v-for="project in projects">
+    <div v-for="project in reversedProjects">
       <NuxtLink :to="project._path">
         <div
           class="grid grid-cols-1 lg:grid-cols-3 lg:mx-5 mt-10 lg:p-4 rounded-xl hover:bg-primary-light-200 hover:dark:bg-primary-dark-800"

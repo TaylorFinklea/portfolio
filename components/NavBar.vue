@@ -1,19 +1,29 @@
 <script setup lang="ts">
-import { Popover, PopoverButton, PopoverPanel } from '@headlessui/vue'
+import { Popover, PopoverButton, PopoverPanel } from "@headlessui/vue";
 
-const mode = useColorMode({
-  emitAuto: true,
-})
-const { next } = useCycleList(['auto', 'light', 'dark'], {
-  initialValue: mode,
-})
+const { $colorMode } = useNuxtApp();
+
+const toggleColorMode = () => {
+  if ($colorMode.value === "dark") {
+    $colorMode.preference = "light";
+  } else {
+    $colorMode.preference = "dark";
+  }
+};
+
+const colorModeIcon = computed(() => {
+  const mode = $colorMode.value;
+  if (mode === "dark") return "ph:moon-fill";
+  if (mode === "light") return "ph:sun-dim-bold";
+  return "material-symbols:contrast";
+});
 const links = ref([
-  { name: 'Home', href: '/' },
-  { name: 'About', href: '/about' },
-  { name: 'Projects', href: '/projects' },
-  { name: 'Talents', href: '/talents' },
-  { name: 'Uses', href: '/uses' },
-])
+  { name: "Home", href: "/" },
+  { name: "About", href: "/about" },
+  { name: "Projects", href: "/projects" },
+  { name: "Talents", href: "/talents" },
+  { name: "Uses", href: "/uses" },
+]);
 </script>
 <template>
   <div class="top-1 z-50 h-10 pt-4 sticky">
@@ -25,7 +35,7 @@ const links = ref([
           <ul
             class="flex rounded-xl bg-white/90 px-3 text-sm font-medium text-primary-dark-800 shadow-lg shadow-primary-dark-800/5 ring-1 ring-primary-dark-900/5 backdrop-blur dark:bg-primary-dark-700/60 dark:text-primary-light-200 dark:ring-white/10"
           >
-            <li v-for="link in links">
+            <li v-for="link in links" :key="link.name">
               <NuxtLink
                 :to="link.href"
                 class="relative block px-3 py-2 transition"
@@ -82,10 +92,9 @@ const links = ref([
                   class="relative grid gap-6 bg-primary-light-50 px-5 py-6 sm:gap-8 sm:p-8"
                 >
                   <NuxtLink
-                    :external="true"
                     v-for="link in links"
                     :key="link.name"
-                    :href="link.href"
+                    :to="link.href"
                     :class="[
                       $route.path === link.href
                         ? 'bg-primary-400'
@@ -106,16 +115,10 @@ const links = ref([
 
       <div class="justify-self-end mr-8">
         <BaseButton
-          :icon="
-            {
-              auto: 'material-symbols:contrast',
-              dark: 'ph:moon-fill',
-              light: 'ph:sun-dim-bold',
-            }[mode]
-          "
+          :icon="colorModeIcon"
           screenReaderLabel="Toggle Mode"
           iconSize="h-6 w-6"
-          @click="next()"
+          @click="toggleColorMode()"
         />
       </div>
     </div>
