@@ -18,7 +18,7 @@ Building AI systems requires a development environment that's not just powerful,
 The foundation of any serious AI development setup starts with capable hardware that can handle everything from local LLM inference to complex multi-container deployments.
 
 **Primary Workstation:**
-- **16" MacBook Pro M2 Pro with 64GB RAM**: The M2 Pro provides excellent performance for both development and local AI model inference, while 64GB ensures I can run multiple large models simultaneously without memory constraints.
+- **14" MacBook Pro M3 Max with 128GB RAM**: The M3 Max provides excellent performance for both development and local AI model inference, while 128GB ensures I can run multiple large models simultaneously without memory constraints.
 - **LG IPS 4K Ultra-wide Monitors**: Dual ultra-wide displays provide massive screen real estate for managing multiple terminals, code editors, documentation, and monitoring dashboards simultaneously.
 
 **Input Devices:**
@@ -60,7 +60,7 @@ Raycast serves as the central nervous system of my entire workflow:
 **Local AI Infrastructure:**
 - **Ollama & LM Studio**: Running local LLMs including Qwen 3, Gemma, and PHI 4 for privacy-sensitive work and offline development
 - **Open WebUI & Librechat**: Self-hosted interfaces for managing local and remote AI models
-- **Witsy**: Lightweight AI client for quick model interactions
+- **Msty**: Lightweight AI client for quick model interactions
 
 ### Knowledge Management & Productivity
 Effective AI development requires excellent knowledge management and organizational systems.
@@ -93,7 +93,7 @@ AI development often requires creating content, diagrams, and visual materials.
 
 **AI Image Generation:**
 - **Google Imagen 4**: High-quality image generation integrated into workflows
-- **Midjourney**: Creative image generation for presentations and content
+- **Replicate.com**: Creative image generation for presentations and content
 
 ### AI Model Access & Management
 Working with AI requires access to the latest models and the ability to compare their capabilities.

@@ -4,9 +4,9 @@ const uses: Use[] = [
     label: "Hardware",
     items: [
       {
-        title: '16" MacBook Pro, M2 Pro, 64GB RAM',
+        title: '14" MacBook Pro, M3 Max, 128GB RAM',
         subtitle:
-          "The M2 Pro with 64GB RAM handles everything from local LLM inference to complex multi-container AI deployments. Perfect for running multiple AI models simultaneously while maintaining excellent performance.",
+          "The M3 Max with 128GB RAM handles everything from local LLM inference to complex multi-container AI deployments. Perfect for running multiple AI models simultaneously while maintaining excellent performance.",
       },
       {
         title: "LG IPS 4K Ultra-wide Monitors",
@@ -74,9 +74,9 @@ const uses: Use[] = [
     label: "Design / Content",
     items: [
       {
-        title: "Figma",
+        title: "Excalidraw",
         subtitle:
-          "Essential for interface design and collaboration, especially when designing UIs for AI applications and agent interactions.",
+          "Essential for capturing ideas and extending physical whiteboards. It's a powerful tool for brainstorming and visualizing complex concepts.",
       },
       {
         title: "Photoshop",
@@ -133,11 +133,6 @@ const uses: Use[] = [
         subtitle:
           "For notes that I need to collaborate with others on, since not everyone uses Emacs. Great for team knowledge sharing.",
       },
-      {
-        title: "Highlight.ai",
-        subtitle:
-          "Real-time context capture and retrieval during development sessions. Perfect for maintaining context when working on complex AI systems.",
-      },
     ],
   },
   {
@@ -159,7 +154,7 @@ const uses: Use[] = [
           "Running local models with Ollama and LM Studio for privacy-sensitive work and offline development. These are some of my favorite models for coding and technical tasks.",
       },
       {
-        title: "Librechat, Open WebUI, Witsy",
+        title: "Librechat, Open WebUI, Msty",
         subtitle:
           "Self-hosted AI interfaces that give me complete control over my AI interactions and allow me to work with multiple models seamlessly.",
       },
@@ -198,12 +193,6 @@ const uses: Use[] = [
         development, from browser agents to complex agentic workflows. Every
         tool has been chosen for its ability to integrate with AI or enhance the
         development of AI systems.
-      </p>
-      <p>
-        As co-founder of NovaLark AI and a YouTuber focused on making AI
-        accessible, these tools help me move fluidly between designing agent
-        architectures, implementing automation solutions, and creating content
-        that brings AI to everyone.
       </p>
     </div>
     <div></div>

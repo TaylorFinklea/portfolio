@@ -28,17 +28,10 @@ const social = [
   },
   {
     icon: "mdi:email",
-    href: "mailto:taylor@novalark.ai",
+    href: "mailto:taylor@finklea.io",
   },
 ];
 const work = [
-  {
-    label: "NovaLark AI",
-    jobTitle: "Co-Founder & AI Engineer",
-    image: "/novalark.png",
-    dates: "2025 - Present",
-    website: "https://www.novalark.ai",
-  },
   {
     label: "TherapyNotes",
     jobTitle: "Manager of Cloud Systems",
@@ -79,24 +72,19 @@ const work = [
       width="100"
       height="100"
     />
-    <h1 class="base-h1 lg:col-span-4 mt-7">AI Engineer & Co-Founder</h1>
+    <h1 class="base-h1 lg:col-span-4 mt-7">AI Engineer & Architect</h1>
     <div class="base-subtitle lg:col-span-4">
       <p>
-        I'm Taylor, AI Engineer and co-founder of
-        <a
-          href="https://www.novalark.ai"
-          target="_blank"
-          class="text-primary-500 hover:text-primary-600"
-          >NovaLark AI</a
-        >. I'm passionate about building intelligent agentic systems and
-        bringing AI automation to everyone. As a YouTuber, I focus on making
-        browser agents and AI tools accessible to all skill levels.
+        I'm Taylor, AI Engineer & Architect. I'm passionate about building
+        intelligent agentic systems and bringing AI automation to everyone. As a
+        YouTuber, I focus on making browser agents and AI tools accessible to
+        all skill levels.
       </p>
       <p class="mt-3">
         I specialize in designing and deploying bespoke AI automation solutions,
-        with extensive experience in browser agents, LangChain, LangGraph, and
-        various AI platforms. I believe in the power of Python-first development
-        and open-source technology to create meaningful, real-world solutions.
+        with extensive experience in browser agents, AI agent frameworks and
+        SDKS. I believe in the power of Python-first development and open-source
+        technology to create meaningful, real-world solutions.
       </p>
     </div>
     <div class="col-start-1 flex flex-row">

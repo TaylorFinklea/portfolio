@@ -87,14 +87,7 @@ const techStack = [
         class="mt-6 space-y-4 text-base text-primary-dark-600 dark:text-primary-light-300"
       >
         <p>
-          I'm the co-founder of
-          <a
-            href="https://www.novalark.ai"
-            target="_blank"
-            class="text-primary-500 hover:text-primary-600"
-            >NovaLark AI</a
-          >, where we design and deploy bespoke AI automation solutions and
-          intelligent agentic systems. My passion lies in moving beyond simple
+
           API calls to architect robust systems where AI agents can reason,
           plan, and execute complex multi-step tasks to solve real-world
           business problems.
@@ -108,7 +101,7 @@ const techStack = [
           production-ready agents.
         </p>
         <p>
-          My technical expertise spans the entire AI ecosystem - from LangChain
+          My technical expertise spans the entire AI ecosystem - from Mastra
           and LangGraph for agent orchestration, to local LLMs running on my
           hardware with Ollama, to cloud-based solutions with OpenAI, Claude,
           and Gemini. I've built agents for website chat, email automation, lead
@@ -168,10 +161,9 @@ const techStack = [
         />
         <li
           class="mt-8 border-t border-primary-dark-100 pt-8 dark:border-primary-dark-700/40"
-        >
           <SocialLink
-            href="mailto:taylor@novalark.ai"
-            label="taylor@novalark.ai"
+            href="mailto:taylor@finklea.io"
+            label="taylor@finklea.io"
             icon="mdi:email"
           ></SocialLink>
         </li>

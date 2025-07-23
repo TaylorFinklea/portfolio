@@ -176,10 +176,9 @@ const talents: TalentGroup[] = [
     >
       <p>
         I am passionate about AI engineering, intelligent automation, and
-        building systems that amplify human capabilities. As co-founder of
-        NovaLark AI and a YouTube creator, I focus on making AI accessible while
-        maintaining strong leadership and technical foundations in cloud
-        engineering and DevOps.
+        building systems that amplify human capabilities. As a YouTube creator,
+        I focus on making AI accessible while maintaining strong leadership and
+        technical foundations in cloud engineering and DevOps.
       </p>
     </div>
     <div></div>
