@@ -81,9 +81,9 @@ const work = [
         all skill levels.
       </p>
       <p class="mt-3">
-        I specialize in designing and deploying bespoke AI automation solutions,
-        with extensive experience in browser agents, AI agent frameworks and
-        SDKS. I believe in the power of Python-first development and open-source
+        I specialize in designing and deploying AI automation solutions,
+        with extensive experience in building AI agents using agent frameworks and
+        SDKs. I believe in the power of Python-first development and open-source
         technology to create meaningful, real-world solutions.
       </p>
     </div>
