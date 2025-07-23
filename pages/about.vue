@@ -161,11 +161,12 @@ const techStack = [
         />
         <li
           class="mt-8 border-t border-primary-dark-100 pt-8 dark:border-primary-dark-700/40"
+        >
           <SocialLink
             href="mailto:taylor@finklea.io"
             label="taylor@finklea.io"
             icon="mdi:email"
-          ></SocialLink>
+          />
         </li>
       </ul>
     </div>
