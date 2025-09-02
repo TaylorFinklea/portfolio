@@ -33,6 +33,8 @@
     "flowbite": "^2.5.2"
   },
   "overrides": {
-    "@nuxtjs/mdc": "^0.13.3"
+    "@nuxtjs/mdc": "^0.17.2",
+    "brace-expansion": "^2.0.2",
+    "ipx": "^2.1.1"
   }
 }
