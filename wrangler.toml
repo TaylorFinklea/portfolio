@@ -3,7 +3,7 @@ main = "./.output/server/index.mjs"
 compatibility_date = "2023-02-17"
 workers_dev = false
 routes = [
-	{ pattern = "taylor.finklea.io", zone_id = "2e3e3f66b784f3d65682a067a79b582c", custom_domain = true },
+	{ pattern = "taylor.finklea.io", custom_domain = true },
 ]
 [site]
 bucket = ".output/public"

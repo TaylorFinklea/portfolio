@@ -2,7 +2,7 @@
 
 My personal portfolio site, written by hand in Nuxt 3 in February 2023, before I used AI coding tools.
 
-The code is preserved exactly as I last committed it on 2023-02-17. This README is the only later change.
+The code is preserved exactly as I last committed it on 2023-02-17. The only later changes are this README and removing the Cloudflare zone ID from `wrangler.toml`.
 
 ## About this snapshot
 
